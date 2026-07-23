@@ -3,44 +3,7 @@ import json
 import os
 
 from discovery.discover import run_discovery
-from collection.collect import run_collection
-from snapshot.snapshots import process_snapshots
-from graph.intelligence_graph import intelligence_graph
-from reports.write_to_file import write_analysis
-
-
-async def monitor_company(company: str, url: str):
-
-    print(f"\nMonitoring {company}...\n")
-
-    collected_pages = await run_collection(company)
-
-    if not collected_pages:
-        print(f"No pages collected for {company}.")
-        return
-
-    changed_pages = process_snapshots(company, collected_pages)
-
-    if not changed_pages:
-        print(f"No changes detected for {company}.")
-        return
-
-    print(f"{len(changed_pages)} page(s) changed.\n")
-
-    for page in changed_pages:
-
-        result = await intelligence_graph.ainvoke(page)
-
-        analysis = result["analysis"]
-
-        write_analysis(
-            company=company,
-            category=page["category"],
-            url=page["url"],
-            summary=analysis["summary"],
-        )
-
-    print(f"Finished monitoring {company}.\n")
+from monitoring import monitor_company
 
 
 async def main():
@@ -71,6 +34,8 @@ async def main():
                     print(f"{company} is already being monitored.")
                 else:
                     print(f"Adding {company}...")
+
+                    # get links that are worth tracking filtered by filer_links() and discovey node
                     await run_discovery(company, url)
                     print(f"{company} added successfully.")
 
@@ -94,15 +59,22 @@ async def main():
                 print("\nNo companies to monitor. Add at least one company.")
                 continue
 
+            
+            tasks = []
+
             for file in monitoring_files:
 
                 with open(file, "r", encoding="utf-8") as f:
                     monitoring_plan = json.load(f)
 
                 company = monitoring_plan["company"]
-                url = monitoring_plan["homepage"]
+                url = monitoring_plan["url"]
 
-                await monitor_company(company, url)
+                tasks.append(
+                    monitor_company(company, url)
+                )
+
+            await asyncio.gather(*tasks)
 
         # --------------------------------------------------
         # Exit

@@ -21,8 +21,14 @@ Thumbs.db
 
 # Generated project data
 snapshots/
+reports/
+apple.json
+nothing.json
 
 # Logs
 *.log
 
 scraping_practice/
+
+# test
+test.py

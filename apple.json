@@ -1,0 +1,580 @@
+{
+    "company": "Apple",
+    "url": "https://www.apple.com/in/",
+    "filtered_links": [
+        {
+            "url": "https://www.apple.com/in",
+            "anchor_text": "Apple"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/store",
+            "anchor_text": "Store"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_mac",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_ipad",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_iphone",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_watch",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/airpods/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/retail",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/order/list",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/trade_in",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/ways_to_buy",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/personal_setup",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/edu_store",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/educationrouting",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/retail/business",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/mac",
+            "anchor_text": "Mac"
+        },
+        {
+            "url": "https://www.apple.com/in/macbook-neo",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/macbook-air",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/macbook-pro",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/imac",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/mac-mini",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/mac-studio",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/displays",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/mac/compare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/mac/mac-does-that",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/mac/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/applecare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/os/macos",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-intelligence",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apps",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-creator-studio",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/macos/continuity",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/icloud",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/business/mac",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/education",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad",
+            "anchor_text": "iPad"
+        },
+        {
+            "url": "https://www.apple.com/in/ipad-pro",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad-air",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad-11",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad-mini",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-pencil",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad-keyboards",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/ipad/compare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/ipad/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/os/ipados",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone",
+            "anchor_text": "iPhone"
+        },
+        {
+            "url": "https://www.apple.com/in/iphone-17-pro",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone-air",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone-17",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone-17e",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_iphone/iphone_16",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone/compare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/iphone/switch",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/iphone/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/os/ios",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/wallet",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/watch",
+            "anchor_text": "Watch"
+        },
+        {
+            "url": "https://www.apple.com/in/apple-watch-series-11",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-watch-se-3",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-watch-ultra-3",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-watch-nike",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/watch/compare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/watch/why-apple-watch",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/watch/bands",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/watch/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/os/watchos",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-watch-for-your-kids",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-fitness-plus",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airpods",
+            "anchor_text": "AirPods"
+        },
+        {
+            "url": "https://www.apple.com/in/airpods-4",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airpods-pro",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airpods-max",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airpods/compare",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/accessories/all_accessories/headphones_speakers",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-music",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/tv-home",
+            "anchor_text": "TV & Home"
+        },
+        {
+            "url": "https://www.apple.com/in/apple-tv-4k",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/homepod-2nd-generation",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/homepod-mini",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_tv/apple_tv_4k",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_homepod/homepod",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_homepod/homepod_mini",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/product/MW5G3",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/smart_home/accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-tv-app",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-tv",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/home-app",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airplay",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/entertainment",
+            "anchor_text": "Entertainment"
+        },
+        {
+            "url": "https://www.apple.com/in/services",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-one",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-arcade",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-podcasts",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/apple-books",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/app-store",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/accessories/all_accessories/made_by_apple",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/accessories/all_accessories/beats_featured",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/airtag",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/retail/geniusbar",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/search",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/accessories/apple_accessories",
+            "anchor_text": ""
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/bag",
+            "anchor_text": "0\n+"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_mac/macbook_air",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_ipad/ipad_air",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_mac/macbook_pro",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/ipad_pro/select",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_watch/apple_watch_series_11",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/buy_airpods/airpods_pro_3",
+            "anchor_text": "Buy"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/ways-to-buy",
+            "anchor_text": "eligible product"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/giftcards",
+            "anchor_text": "Gift Cards"
+        },
+        {
+            "url": "https://www.apple.com/in/today",
+            "anchor_text": "Today at Apple"
+        },
+        {
+            "url": "https://www.apple.com/in/today/groups",
+            "anchor_text": "Group Reservations"
+        },
+        {
+            "url": "https://www.apple.com/in/today/camp",
+            "anchor_text": "Apple Camp"
+        },
+        {
+            "url": "https://www.apple.com/in/recycling",
+            "anchor_text": "Recycling Programme"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/help",
+            "anchor_text": "Shopping Help"
+        },
+        {
+            "url": "https://www.apple.com/in/business",
+            "anchor_text": "Apple and Business"
+        },
+        {
+            "url": "https://www.apple.com/in/education/k12/how-to-buy",
+            "anchor_text": "Shop for Education"
+        },
+        {
+            "url": "https://www.apple.com/in/healthcare",
+            "anchor_text": "Apple and Healthcare"
+        },
+        {
+            "url": "https://www.apple.com/in/government",
+            "anchor_text": "Apple and Government"
+        },
+        {
+            "url": "https://www.apple.com/in/accessibility",
+            "anchor_text": "Accessibility"
+        },
+        {
+            "url": "https://www.apple.com/in/education-initiative",
+            "anchor_text": "Education"
+        },
+        {
+            "url": "https://www.apple.com/in/environment",
+            "anchor_text": "Environment"
+        },
+        {
+            "url": "https://www.apple.com/in/supply-chain",
+            "anchor_text": "Supply Chain Innovation"
+        },
+        {
+            "url": "https://www.apple.com/in/newsroom",
+            "anchor_text": "Newsroom"
+        },
+        {
+            "url": "https://www.apple.com/in/leadership",
+            "anchor_text": "Apple Leadership"
+        },
+        {
+            "url": "https://www.apple.com/careers/in",
+            "anchor_text": "Career Opportunities"
+        },
+        {
+            "url": "https://www.apple.com/compliance",
+            "anchor_text": "Ethics & Compliance"
+        },
+        {
+            "url": "https://www.apple.com/in/apple-events",
+            "anchor_text": "Events"
+        },
+        {
+            "url": "https://www.apple.com/in/contact",
+            "anchor_text": "Contact Apple"
+        },
+        {
+            "url": "https://www.apple.com/choose-country-region",
+            "anchor_text": "India"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/goto/help/sales_refunds",
+            "anchor_text": "Sales Policy"
+        },
+        {
+            "url": "https://www.apple.com/in/sitemap",
+            "anchor_text": "Site Map"
+        }
+    ],
+    "important_pages": [
+        {
+            "url": "https://www.apple.com/in/mac",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/ipad",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/iphone",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/watch",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/airpods",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/tv-home",
+            "category": "Products"
+        },
+        {
+            "url": "https://www.apple.com/in/shop/ways-to-buy",
+            "category": "Pricing"
+        },
+        {
+            "url": "https://www.apple.com/in/newsroom",
+            "category": "News"
+        },
+        {
+            "url": "https://www.apple.com/in/careers/in",
+            "category": "Careers"
+        },
+        {
+            "url": "https://www.apple.com/in/investor",
+            "category": "Investor Relations"
+        }
+    ]
+}
