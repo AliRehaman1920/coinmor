@@ -22,8 +22,7 @@ Thumbs.db
 # Generated project data
 snapshots/
 reports/
-apple.json
-nothing.json
+company_links/
 
 # Logs
 *.log

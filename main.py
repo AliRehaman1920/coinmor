@@ -28,7 +28,10 @@ async def main():
                 company = input("\nCompany name: ").strip()
                 url = input("Homepage URL: ").strip()
 
-                monitoring_plan = f"{company.lower()}.json"
+                monitoring_plan = os.path.join(
+                    "company_links",
+                    "{company.lower()}.json"
+                )
 
                 if os.path.exists(monitoring_plan):
                     print(f"{company} is already being monitored.")
@@ -49,9 +52,9 @@ async def main():
         # --------------------------------------------------
 
         elif choice == "2":
-
             monitoring_files = [
-                file for file in os.listdir(".")
+                os.path.join("company_links", file)
+                for file in os.listdir("company_links")
                 if file.endswith(".json")
             ]
 

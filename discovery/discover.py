@@ -33,7 +33,7 @@ async def run_discovery(company: str, url: str):
 
     result = discovery_graph.invoke(state)
 
-    with open(f"{company.lower()}.json", "w", encoding="utf-8") as file:
+    with open(f"company_links/{company.lower()}.json", "w", encoding="utf-8") as file:
         json.dump(result, file, indent=4)
 
     return result
