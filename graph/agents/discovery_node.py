@@ -30,14 +30,16 @@ Filtered Links:
 
     try:
         important_pages = json.loads(response.content)
-
     except json.JSONDecodeError as e:
-
         print("\nLLM Response:")
         print(response.content)
+        return {"important_pages": []}   # same fallback idea as before — don't crash
 
-        raise e
+    # NEW: only keep pages whose URL was actually in filtered_links
+    valid_urls = {link["url"] for link in state["filtered_links"]}
+    important_pages = [
+        page for page in important_pages
+        if page.get("url") in valid_urls
+    ]
 
-    return {
-        "important_pages": important_pages
-    }
+    return {"important_pages": important_pages}
