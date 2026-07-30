@@ -74,7 +74,7 @@ async def main():
                     monitor_company(company, url)
                 )
 
-            await asyncio.gather(*tasks)
+            await asyncio.gather(*tasks, return_exceptions=True)
 
         # --------------------------------------------------
         # Exit

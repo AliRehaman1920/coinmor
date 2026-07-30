@@ -98,3 +98,10 @@ The Apple Newsroom page now invites users to stay up to date with the latest art
 
 ---
 
+## Products
+**URL:** https://www.apple.com/in/iphone
+
+Apple has added content related to video playback features on the iPhone page, including subtitles, audio tracks, and live streaming, suggesting enhanced media capabilities.
+
+---
+

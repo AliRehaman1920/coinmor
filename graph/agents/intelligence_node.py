@@ -49,11 +49,9 @@ Removed Content:
         analysis = json.loads(content)
 
     except json.JSONDecodeError as e:
-
         print("\nLLM Response:")
         print(response.content)
-
-        raise e
+        return {"analysis": {"summary": "Could not analyze this page (invalid AI response)."}}
 
     return {
         "analysis": analysis
