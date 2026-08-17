@@ -4,4 +4,8 @@ from langchain_groq import ChatGroq
 load_dotenv(find_dotenv())
 
 
-llm = ChatGroq(model = 'llama-3.3-70b-versatile', temperature=0.1)
+llm = ChatGroq(
+    model = 'qwen/qwen3.6-27b',
+    temperature=0.1,
+    reasoning_format="hidden"
+)
